@@ -60,7 +60,7 @@ public class Rectangulo {
      * @param "base"+base + "altura"+altura
      * @return 
      */
-    public String toString1() {
+    public String toString() {
         // TODO implement here
     	return "base"+base + "altura"+altura;
     }
