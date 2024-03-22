@@ -1,84 +1,36 @@
 package modelos;
 
-
-import java.util.*;
-
-/**
- * 
- */
 public class Rectangulo {
 
-    /**
-     * Default constructor
-     */
-    public Rectangulo() {
-    	int base;
-        int altura;
-    }
-
-    /**
-     * 
-     */
     private int base;
-
-    /**
-     * 
-     */
     private int altura;
 
-    /**
-     * @return
-     */
+    public Rectangulo() {
+        this.base = 0; 
+        this.altura = 0; 
+    }
+
     public int getBase() {
-        // TODO implement here
-        return 0;
+        return base;
     }
 
-    /**
-     * @param base
-     */
     public void setBase(int base) {
-        // TODO implement here
+        this.base = base;
     }
 
-    /**
-     * @return
-     */
     public int getAltura() {
-        // TODO implement here
-        return 0;
+        return altura;
     }
 
-    /**
-     * @param altura
-     */
     public void setAltura(int altura) {
-        // TODO implement here
+        this.altura = altura;
     }
 
-    /**
-     * @param "base"+base + "altura"+altura
-     * @return 
-     */
     public String toString() {
-        // TODO implement here
-    	return "base"+base + "altura"+altura;
+        return "Base: " + base + ", Altura: " + altura;
     }
 
-    /**
-     * @return
-     */
-    public String toString() {
-        // TODO implement here
-        return "";
-    }
-
-    /**
-     * @param 2*(base+altura) 
-     * @return
-     */
     public int calcularPerimetro() {
         return 2 * (base + altura);
     }
-
 }

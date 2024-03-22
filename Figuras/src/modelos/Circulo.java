@@ -1,74 +1,41 @@
+package modelos;
 
-import java.util.*;
-
-/**
- * 
- */
 public class Circulo {
 
-    /**
-     * Default constructor
-     */
-    public Circulo() {
-    }
-
-    /**
-     * 
-     */
     private double radio;
 
-    /**
-     * @param radio
-
-    public void Circulo() {
-        // TODO implement here
+ 
+    public Circulo() {
+        this.radio = 1.0; // 
     }
 
-    /**
-     * @param radio
-     */
+   
     public Circulo(double radio) {
-        // TODO implement here
+        this.radio = radio;
     }
 
-    /**
-     * @return
-     */
+ 
     public double getRadio() {
-        // TODO implement here
-        return 0.0d;
+        return radio;
     }
 
-    /**
-     * @param radio:double
-     */
+
     public void setRadio(double radio) {
-        // TODO implement here
+        this.radio = radio;
     }
 
-    /**
-     * @return
-     */
+
     public String toString() {
-        // TODO implement here
-        return "";
+        return "Círculo con radio: " + radio;
     }
 
-    /**
-     * @param radio 
-     * @return
-     */
+
     public double calcularArea() {
         return Math.PI * radio * radio;
     }
-    
 
-    /**
-     * @param radio 
-     * @return
-     */
+ 
     public double calcularPerimetro() {
         return 2 * Math.PI * radio;
     }
-
 }
