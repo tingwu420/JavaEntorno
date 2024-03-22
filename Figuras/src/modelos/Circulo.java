@@ -1,6 +1,6 @@
 package modelos;
 
-public class Circulo {
+public class Circulo extends Figuras{
 
     private double radio;
 

@@ -1,6 +1,6 @@
 package modelos;
 
-public class Rectangulo {
+public class Rectangulo extends Figuras{
 
     private int base;
     private int altura;
